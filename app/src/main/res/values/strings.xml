@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OneTimeLogin</string>
+    <string name="user_login">User Login</string>
+    <string name="user_home">Home</string>
+    <string name="welcome_txt">Welcome</string>
+    <string name="logout">LOGOUT</string>
+    <string name="et_uname">Enter Username</string>
+    <string name="et_psw">Enter your Password</string>
+    <string name="login">LOGIN</string>
+</resources>

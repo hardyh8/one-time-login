@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bgColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/etUname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="@string/et_uname"
+            android:padding="12dp"
+            android:textColorHint="?attr/bgColor"
+            android:textColor="?attr/bgColor" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="@string/et_psw"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColorHint="?attr/bgColor"
+            android:textColor="?attr/bgColor" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="85px"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/login_btn"
+            android:text="@string/login"
+            android:textColor="?attr/textColor" />
+    </LinearLayout>
+</RelativeLayout>
